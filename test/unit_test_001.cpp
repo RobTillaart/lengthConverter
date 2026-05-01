@@ -47,7 +47,7 @@ unittest(test_constants)
 
 unittest(test_constructor)
 {
-  LengthConvertor obj;
+  lengthConverter obj;
 }
 
 
