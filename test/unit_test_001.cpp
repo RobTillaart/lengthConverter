@@ -25,7 +25,7 @@
 
 
 #include "Arduino.h"
-#include "LengthConvertor.h"
+#include "LengthConverter.h"
 
 
 unittest_setup()
