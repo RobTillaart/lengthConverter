@@ -37,13 +37,19 @@ Tried to follow the international standards as much as possible.
 There are several different categories, ranging in size, e.g. the
 atomic units and the astronomical units. Mixing different units may
 result in loss of precision.
-For the units supported see **LengthConverter.h**.
 
 Note that the internal representation is a double and this is on
-several boards implemented as a 4 byte float (6-7 significant digits).
+several boards implemented as a 4 byte float with only 6-7 significant digits.
+
+For the best results of mixing units, one should sort the values on size and
+add them from small to large if possible. 
+This approach gives the smallest error.
 
 Although the library is written mainly to be used for educational purpose,
 it can be used in other applications too. 
+
+For the units supported see **LengthConverter.h**.
+If units are missing, please let me know.
 
 Feedback as always is welcome.
 
@@ -53,7 +59,7 @@ Feedback as always is welcome.
 
 - https://github.com/RobTillaart/pressure - pressure conversions
 - https://github.com/RobTillaart/Temperature - temperature conversions
-- https://github.com/RobTillaart/VolumeConverter - conversions
+- https://github.com/RobTillaart/VolumeConverter - volume conversions
 - https://github.com/RobTillaart/printHelpers - print in scientific and engineering format
 
 
