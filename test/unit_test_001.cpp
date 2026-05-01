@@ -30,7 +30,7 @@
 
 unittest_setup()
 {
-  fprintf(stderr, "LENGTHCONVERTOR_LIB_VERSION: %s\n", (char *) LENGTHCONVERTOR_LIB_VERSION);
+  fprintf(stderr, "LENGTHCONVERTER_LIB_VERSION: %s\n", (char *) LENGTHCONVERTER_LIB_VERSION);
 }
 
 
