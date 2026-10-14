@@ -78,6 +78,8 @@ Tested on Arduino UNO R3. Should work on all.
 #include "LengthConverter.h"
 ```
 
+### Core
+
 Look into the .h for supported formats. 
 In essence for every supported unit there are
 
@@ -112,9 +114,10 @@ Notes:
 
 - redo magic numbers? (too much?).
 - create unit tests
-- update keywords.txt
 
 #### Wont
+
+- update keywords.txt (too many)
 
 
 ## Support
