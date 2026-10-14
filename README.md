@@ -11,7 +11,7 @@
 
 # LengthConverter
 
-Arduino library for to convert units of length.
+Arduino library to convert (not so common) units of length.
 
 
 ## Description
@@ -54,12 +54,16 @@ If units are missing, please let me know.
 Feedback as always is welcome.
 
 
-
 ### Related
 
+Converters
+- https://github.com/RobTillaart/LengthConverter - length conversions
 - https://github.com/RobTillaart/pressure - pressure conversions
 - https://github.com/RobTillaart/Temperature - temperature conversions
 - https://github.com/RobTillaart/VolumeConverter - volume conversions
+- https://github.com/RobTillaart/weight - weight conversions
+
+Other
 - https://github.com/RobTillaart/printHelpers - print in scientific and engineering format
 
 
